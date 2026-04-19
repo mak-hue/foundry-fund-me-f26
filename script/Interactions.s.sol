@@ -40,5 +40,5 @@ contract WithdrawFundMe is Script {
         vm.startBroadcast();
         WithdrawFundMe(mostRecentlyDeployed);
         vm.stopBroadcast();
-         }
+    }
 }
